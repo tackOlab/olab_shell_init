@@ -22,3 +22,11 @@ cp ./alacritty.yml ~/.alacritty.yml
 # rustup update stable
 
 git clone https://github.com/alacritty/alacritty.git $HOME/alacritty
+
+cd ~/.tmux/plugins
+git clone https://github.com/tmux-plugins/tpm.git
+git clone https://github.com/tmux-plugins/tmux-battery.git
+git clone https://github.com/tmux-plugins/tmux-cpu.git
+git clone https://github.com/tmux-plugins/tmux-online-status.git
+
+cd
