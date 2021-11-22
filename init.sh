@@ -22,3 +22,7 @@ cp ./alacritty.yml ~/.alacritty.yml
 # rustup update stable
 
 git clone https://github.com/alacritty/alacritty.git $HOME/alacritty
+<<<<<<< HEAD
+=======
+
+>>>>>>> a37fe5098a6a79aec04b17f9b4915df044a97aae
