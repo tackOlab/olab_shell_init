@@ -9,7 +9,7 @@ done
 
 brew tap homebrew/cask-fonts
 brew install --cask font-jetbrains-mono-nerd-font
-brew install tmux alacritty
+brew install peco tmux alacritty
 
 cp ./zshrc ~/.zshrc
 cp ./zpreztorc ~/.zpreztorc
