@@ -13,11 +13,10 @@ fi
 # Customize to your needs...
 export LS_COLORS='di=01;34:*.tex=01;31:*.pdf=01;35'
 
-BREWHOME=$(brew --prefix)
-alias ls=$BREWHOME/bin/exa
-alias less=$BREWHOME/bin/bat
-alias vi=$BREWHOME/bin/vim
-alias grep=$BREWHOME/bin/rg
+alias ls=$HOMEBREW_PREFIX/bin/exa
+alias less=$HOMEBREW_PREFIX/bin/bat
+alias vi=$HOMEBREW_PREFIX/bin/vim
+alias grep=$HOMEBREW_PREFIX/bin/rg
 #alias kdu_show='open -a kdu_show'
 
 # Command history
