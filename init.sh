@@ -22,9 +22,10 @@ done
 cp ./zprofile $HOME/.zprofile
 cp ./zshrc $HOME/.zshrc
 cp ./zpreztorc $HOME/.zpreztorc
-cp -r ./tmux $HOME/.tmux
-cp ./tmux.conf $HOME/.tmux.conf
-cp ./alacritty.yml $HOME/.alacritty.yml
+# only for tmux and alacritty, if any
+#cp -r ./tmux $HOME/.tmux
+#cp ./tmux.conf $HOME/.tmux.conf
+#cp ./alacritty.yml $HOME/.alacritty.yml
 
 # Install rustup
 #if !(type "rustup" > /dev/null 2>&1); then
@@ -41,12 +42,12 @@ cp ./alacritty.yml $HOME/.alacritty.yml
 #make app
 #cp -r target/release/osx/Alacritty.app /Applications/
 
-# Clone tmux plugins
-mkdir -p $HOME/.tmux/plugins
-cd $HOME/.tmux/plugins
-git clone https://github.com/tmux-plugins/tpm.git
-git clone https://github.com/tmux-plugins/tmux-battery.git
-git clone https://github.com/tmux-plugins/tmux-cpu.git
-git clone https://github.com/tmux-plugins/tmux-online-status.git
+## Clone tmux plugins
+#mkdir -p $HOME/.tmux/plugins
+#cd $HOME/.tmux/plugins
+#git clone https://github.com/tmux-plugins/tpm.git
+#git clone https://github.com/tmux-plugins/tmux-battery.git
+#git clone https://github.com/tmux-plugins/tmux-cpu.git
+#git clone https://github.com/tmux-plugins/tmux-online-status.git
 
 cd $HOME
