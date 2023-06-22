@@ -13,6 +13,9 @@ fi
 # Customize to your needs...
 export LS_COLORS='di=01;34:*.tex=01;31:*.pdf=01;35'
 
+export HOMEBREW_PREFIX=/usr/local
+#export HOMEBREW_PREFIX=/opt/homebrew
+
 alias ls=$HOMEBREW_PREFIX/bin/exa
 alias less=$HOMEBREW_PREFIX/bin/bat
 alias vi=$HOMEBREW_PREFIX/bin/vim
